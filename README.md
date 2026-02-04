@@ -7,8 +7,7 @@ This project demonstrates strong frontend engineering fundamentals, state manage
 ---
 
 ## 🌐 Live Demo
-*(Add your deployment link here after we deploy)*
-
+(https://xpense-tracker-karna.vercel.app/)
 ---
 
 ## 🚀 Features
