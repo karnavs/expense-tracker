@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+
+    <div class="sidebar">
+        <h2>Expense Tracker</h2>
+        <nav>
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="add-expense.html">Add Expense</a>
+            <a href="transactions.html">Transactions</a>
+            <a href="#">Profile</a>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <h3>Dashboard</h3>
+        </div>
+        <div class="content">
+
+        <div class="card primary">
+    <span class="label">
+        <span class="icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7h18v10H3z"></path>
+                <path d="M16 12h2"></path>
+            </svg>
+        </span>
+        Balance
+    </span>
+
+    <span class="value" id="total-balance">INR 0</span>
+</div>
+
+
+            <div class="card income">
+                <span class="label">Income</span>
+                <span class="value" id="income">INR 10,000</span>
+            </div>
+            <div class="card secondary">
+                <span class="label">
+    <span class="icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="3 7 9 13 13 9 21 17"></polyline>
+            <polyline points="21 13 21 17 17 17"></polyline>
+        </svg>
+    </span>
+    Total Spent
+</span>
+        <span class="value" id="total-spent">INR 0</span>
+
+            </div>
+            <div class="card secondary">
+                <span class="label">
+    <span class="icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="8" y1="6" x2="21" y2="6"></line>
+            <line x1="8" y1="12" x2="21" y2="12"></line>
+            <line x1="8" y1="18" x2="21" y2="18"></line>
+            <circle cx="4" cy="6" r="1"></circle>
+            <circle cx="4" cy="12" r="1"></circle>
+            <circle cx="4" cy="18" r="1"></circle>
+        </svg>
+        </span>
+            Transactions
+        </span>
+        <span class="value" id="transaction-count">0</span>
+            </div>
+
+            <div class="card secondary">
+                <span class="label">
+    <span class="icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="3" width="14" height="18" rx="2"></rect>
+            <line x1="9" y1="7" x2="15" y2="7"></line>
+            <line x1="9" y1="12" x2="9" y2="12"></line>
+            <line x1="12" y1="12" x2="12" y2="12"></line>
+            <line x1="15" y1="12" x2="15" y2="12"></line>
+            <line x1="9" y1="15" x2="9" y2="15"></line>
+            <line x1="12" y1="15" x2="12" y2="15"></line>
+            <line x1="15" y1="15" x2="15" y2="15"></line>
+        </svg>
+    </span>
+    Average Expense
+</span>
+        <span class="value" id="average-expense">INR 0</span>
+            </div>  
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

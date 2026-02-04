@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Expense</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+
+    <div class="sidebar">
+        <h2>Expense Tracker</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="add-expense.html" class="active">Add Expense</a>
+            <a href="transactions.html">Transactions</a>
+            <a href="#">Profile</a>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <h3>Add Expense</h3>
+        </div>
+
+        <div class="content">
+            <div class="card add-expense">
+                <span class="label">Add Expense</span>
+                <div class="expense-form">
+                    <input type="number" id="expense-input" placeholder="Enter amount">
+                    <input type="text" id="expense-title" placeholder="What did you spend on?">
+                    <button id="add-expense-btn">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

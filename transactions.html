@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+
+    <div class="sidebar">
+        <h2>Expense Tracker</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="add-expense.html">Add Expense</a>
+            <a href="transactions.html" class="active">Transactions</a>
+            <a href="#">Profile</a>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <h3>Transactions</h3>
+            <button id="reset-btn" class="reset-btn">Reset Data</button>
+            <button id="export-btn" class="reset-btn">Export</button>
+            <button id="import-btn" class="reset-btn">Import</button>
+            <input type="file" id="import-file" hidden accept=".json">
+        </div>
+
+        <div class="content">
+            <div class="card transactions">
+                <span class="label">All Transactions</span>
+                <p id="empty-state">No Recent Transactions</p>
+                <ul id="transaction-list"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
