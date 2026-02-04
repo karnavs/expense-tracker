@@ -11,11 +11,6 @@ This project demonstrates strong frontend engineering fundamentals, state manage
 
 ---
 
-## 📸 Preview
-*(You can add screenshots later — highly recommended for portfolio)*
-
----
-
 ## 🚀 Features
 
 ### 💳 Expense Management
@@ -81,11 +76,6 @@ expense-tracker/
 ├── transactions.html
 ├── index.html
 └── README.md
-
-yaml
-Copy code
-
----
 
 ## 🧠 Technical Concepts Demonstrated
 
