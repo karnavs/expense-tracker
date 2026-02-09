@@ -8,18 +8,9 @@ This project demonstrates strong frontend engineering fundamentals, state manage
 
 ## 🌐 Live Demo
 https://xpense-tracker-karna.vercel.app/
-<<<<<<< HEAD
 =======
 
 ---
-
-## 📸 Preview
-*(You can add screenshots later — highly recommended for portfolio)*
-
->>>>>>> 008a823 (.)
----
-
-## 🚀 Features
 
 ### 💳 Expense Management
 - Add expenses with title and amount
