@@ -166,11 +166,11 @@ index.html
 Using Live Server or browser.
 
 🤝 Contribution
-This project is currently personal and educational, but improvements and suggestions are welcome.
+This project is currently personal and for learning.
 
 📬 Author
 Karna VS
-Computer Science Engineering Student
-Full Stack Developer (Learning Path)
+CompSci Undergrad
+Full Stack Project001
 
 GitHub: https://github.com/karnavs
