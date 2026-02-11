@@ -1,15 +1,20 @@
+# Maven
+target/
+*.log
+
 # Node
 node_modules/
-
-# OS files
-.DS_Store
-Thumbs.db
 
 # VS Code
 .vscode/
 
-# Environment files
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
 .env
 
-# Logs
-*.log
+# IDE
+*.iml
+.idea/

@@ -1,0 +1,22 @@
+POST http://localhost:8080/expenses
+Content-Type: application/json
+
+{
+  "title": "Groceries",
+  "amount": 500,
+  "category": "Daily"
+}
+###
+GET http://localhost:8080/expenses/999
+
+###
+PUT http://localhost:8080/expenses/3
+Content-Type: application/json
+
+{
+  "title": "Updated Groceries",
+  "amount": 600,
+  "category": "Daily"
+}
+###
+DELETE http://localhost:8080/expenses/3
