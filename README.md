@@ -1,10 +1,10 @@
 # ✦ Expense Tracker
 
 <p align="center">
-<b>Modern frontend-architecture driven expense tracking application</b>
+<b> CRUD expense tracking application</b>
 </p>
 <p align="center">
-Vanilla JavaScript • Scalable Design • Production-Oriented Structure
+JavaScript • SpringBoot • Production-Oriented Structure
 </p>
 <p align="center">
 🌐 <a href="https://xpense-tracker-karna.vercel.app/"><b>Live
@@ -133,12 +133,10 @@ Open `index.html` using Live Server or any modern browser.
 ## Author
 
 **Karna VS**  
-Computer Science Undergraduate  
-Full Stack Development Track
+CompSci Undergraduate  
+Banglore - India
 
 🔗 https://github.com/karnavs
 
 ------------------------------------------------------------------------
 
-⭐ If you found this project interesting, consider starring the
-repository.
