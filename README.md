@@ -1,7 +1,6 @@
-# ✦ Expense Tracker
 
 <p align="center">
-<b> CRUD expense tracking application</b>
+<b> CRUD expense tracking application </b>
 </p>
 <p align="center">
 JavaScript • SpringBoot • Production-Oriented Structure
