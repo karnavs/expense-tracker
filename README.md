@@ -1,25 +1,25 @@
 ✦ Expense Tracker
-<p align="center"> <b>A modern, frontend-architecture driven expense tracking application</b> </p> <p align="center"> Built with Vanilla JS • Designed for Scalability • Structured for Real-World Engineering </p> <p align="center"> <a href="https://xpense-tracker-karna.vercel.app/"><strong>🌐 Live Preview</strong></a> </p>
-Overview
+<p align="center"> <b>Modern frontend-architecture driven expense tracking application</b> </p> <p align="center"> Vanilla JavaScript • Scalable Design • Production-Oriented Structure </p> <p align="center"> 🌐 <a href="https://xpense-tracker-karna.vercel.app/"><b>Live Preview</b></a> </p>
+About
 
-Expense Tracker is a lightweight yet production-styled financial tracking application focused on clean architecture, structured state handling, and professional UI design.
+Expense Tracker is a structured financial tracking application built to demonstrate real-world frontend engineering practices.
 
-The project emphasizes how modern frontend applications should be structured before backend scaling.
+The project focuses on architecture clarity, maintainable UI logic, and scalable client-side data handling before backend integration.
 
-Highlights
+Core Capabilities
 
-✦ Real-time expense tracking
-✦ Intelligent dashboard analytics
-✦ Persistent client-side state
-✦ Modular production-ready structure
-✦ Clean UX with accessibility considerations
+• Real-time expense tracking
+• Dashboard-based financial insights
+• Persistent client-side storage
+• Modular frontend architecture
+• Accessibility-aware user interface
 
-Features
-Transaction Engine
+Feature Breakdown
+Transaction Management
 
-Add and remove expenses dynamically
+Dynamic expense creation & deletion
 
-Timestamp-based transaction logging
+Timestamp-driven transaction logging
 
 Instant balance recalculation
 
@@ -29,95 +29,100 @@ Current balance overview
 
 Total spending insights
 
-Expense averages & transaction count
+Transaction count & expense averages
 
-Persistence Layer
+Persistence System
 
-LocalStorage-driven data management
+LocalStorage state management
 
-JSON backup import/export support
+JSON backup import / export
 
-Safe reset handling
+Safe data reset handling
 
 User Experience
 
-Responsive multi-page dashboard
+Fully responsive layout
 
-Smooth UI transitions
+Smooth UI interactions
 
-Keyboard-friendly interaction
+Keyboard accessibility
 
 Input validation feedback
 
-Architecture Philosophy
-UI Layer → Event Controller → Service Layer → Storage Layer
+Architecture Design
+UI Layer
+   ↓
+Event Controller
+   ↓
+Service Layer
+   ↓
+Storage Layer
 
+Engineering Principles
 
-This project demonstrates:
-
-Separation of responsibilities
+Clear separation of concerns
 
 Derived state computation
 
 Scalable component structuring
 
-Maintainable frontend design principles
+Maintainable frontend logic
 
 Tech Stack
-<div align="center">
-Domain	Stack
-Markup	HTML5
+Layer	Technology
+Structure	HTML5
 Styling	CSS3 (Flexbox + Grid)
-Logic	Vanilla JavaScript
-Storage	Browser LocalStorage
-Hosting	Vercel
-</div>
+Application Logic	Vanilla JavaScript
+Data Persistence	Browser LocalStorage
+Deployment	Vercel
 Project Structure
 expense-tracker
 │
-├── css
-├── js
-├── assets
-├── docs
+├── css/
+├── js/
+├── assets/
+├── docs/
 │
 ├── index.html
 ├── dashboard.html
 ├── add-expense.html
 ├── transactions.html
 
-Local Development
+Local Setup
 git clone https://github.com/karnavs/expense-tracker.git
 cd expense-tracker
 
 
-Launch using Live Server or open index.html in browser.
+Open index.html using Live Server or any modern browser.
 
-Future Evolution
-Backend → Spring Boot REST API
-Database → PostgreSQL
-Security → JWT Authentication
-Analytics → Chart Visualization
-Deployment → Cloud Infrastructure + CI/CD
+Planned Evolution
 
-Why This Project Exists
+Spring Boot REST API integration
 
-This application was intentionally built to strengthen:
+PostgreSQL database implementation
 
-Production-style frontend engineering
+Authentication & user accounts
 
-Data modelling & state flow design
+Chart-based analytics dashboard
+
+Cloud deployment & CI/CD pipeline
+
+Project Intent
+
+This project was built to strengthen:
+
+Production-grade frontend architecture
+
+State flow & data modelling clarity
 
 Scalable project structuring
 
-Backend integration preparedness
+Backend integration readiness
 
 Author
-<p align="center">
 
 Karna VS
 Computer Science Undergraduate
-Full Stack Engineering Track
+Full Stack Development Track
 
-<a href="https://github.com/karnavs">GitHub</a>
-
-</p>
+🔗 https://github.com/karnavs
